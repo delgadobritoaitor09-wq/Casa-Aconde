@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurante Premium</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #0f0f0f;
+      color: white;
+    }
+
+    header {
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
+                  url('https://images.unsplash.com/photo-1555992336-03a23c7b20ee');
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: gold;
+      color: black;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: white;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .reviews {
+      display: grid;
+      gap: 20px;
+    }
+
+    .review {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .review:hover {
+      transform: scale(1.02);
+    }
+
+    .stars {
+      color: gold;
+    }
+
+    .dishes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .dish {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      background: black;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div>
+    <h1>Donde el producto habla por sí solo</h1>
+    <p>Una experiencia gastronómica que no vas a olvidar</p>
+    <a href="#" class="btn">Reservar mesa</a>
+  </div>
+</header>
+
+<section>
+  <h2>Lo que dicen nuestros clientes</h2>
+
+  <div class="reviews">
+    <div class="review">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>“Producto exquisito y atención excelente. Se nota el cariño que ponen en todo.”</p>
+    </div>
+
+    <div class="review">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>“Todo súper fresco y el trato inmejorable. Repetiremos sin duda.”</p>
+    </div>
+
+    <div class="review">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>“Una joya escondida. Platos espectaculares y presentación brutal.”</p>
+    </div>
+
+    <div class="review">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>“Celebré mi boda aquí. Todo perfecto. Lugar y personal excepcionales.”</p>
+    </div>
+
+    <div class="review">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>“Comida de 10 y trato de 100. Sitio para repetir siempre.”</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Nuestros imprescindibles</h2>
+
+  <div class="dishes">
+    <div class="dish">
+      <h3>Tartar de atún</h3>
+      <p>Frescura absoluta con un toque que engancha.</p>
+    </div>
+
+    <div class="dish">
+      <h3>Gambas blancas</h3>
+      <p>Directas del mar a tu mesa.</p>
+    </div>
+
+    <div class="dish">
+      <h3>Boquerones</h3>
+      <p>Sabor intenso, textura perfecta.</p>
+    </div>
+
+    <div class="dish">
+      <h3>Arroces</h3>
+      <p>El plato que hace que vuelvas.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Eventos y momentos especiales</h2>
+  <p style="text-align:center; max-width:600px; margin:auto;">
+    Desde comidas íntimas hasta celebraciones inolvidables.
+    Aquí no solo vienes a comer… vienes a vivir algo.
+  </p>
+
+  <div style="text-align:center;">
+    <a href="#" class="btn">Reserva ahora</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Restaurante Premium - Vas a volver. Lo sabes 😏</p>
+</footer>
+
+</body>
+</html>
